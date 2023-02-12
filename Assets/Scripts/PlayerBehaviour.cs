@@ -13,7 +13,6 @@ public class PlayerBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
         // Rogue keys
         moveMap.Add("y", new Vector3(-1f, 1f));
         moveMap.Add("k", new Vector3(0f, 1f));
