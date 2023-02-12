@@ -297,6 +297,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69e0682b7ee7d624aa9bd6abc880b2ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  map: {fileID: 145111253}
+  tile: {fileID: 11400000, guid: 2d359b4bbac636d47aa70699016a920f, type: 2}
 --- !u!4 &181028583 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3951950555229734226, guid: 704869070366f394fa447c061e63c469, type: 3}
@@ -331,7 +333,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3951950555229734226, guid: 704869070366f394fa447c061e63c469, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.5
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3951950555229734226, guid: 704869070366f394fa447c061e63c469, type: 3}
       propertyPath: m_LocalPosition.y
