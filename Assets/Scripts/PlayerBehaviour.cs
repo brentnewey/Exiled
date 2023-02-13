@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -46,6 +47,7 @@ public class PlayerBehaviour : MonoBehaviour
             if (Input.GetKeyDown(movePair.Key))
             {
                 checkAndMove(movePair.Value);
+                Debug.Log(String.Format("{0}, {1}", transform.position.x, transform.position.y));
             }
         }
     }
